@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: netecho
-        image: lijie0123/netecho
+        image: lijie0123/netecho:slim
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
